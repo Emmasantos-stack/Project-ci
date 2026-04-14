@@ -119,6 +119,96 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1022387081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022387083}
+  - component: {fileID: 1022387082}
+  m_Layer: 0
+  m_Name: ChangeSceneScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1022387082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022387081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c8cdddf15b0f649a1931ffa9b02557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Marte_Curiosidades
+--- !u!4 &1022387083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022387081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 513.5008, y: 439.4861, z: -8.297699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1534816296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534816298}
+  - component: {fileID: 1534816297}
+  m_Layer: 0
+  m_Name: ChangeSceneScript (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1534816297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534816296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c8cdddf15b0f649a1931ffa9b02557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Menu inicial
+--- !u!4 &1534816298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534816296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 513.5008, y: 439.4861, z: -8.297699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1555605611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142,6 +232,34 @@ PrefabInstance:
         baixas que a \xE1gua l\xEDquida tende a sublimar.\n\nTemperaturas: O clima
         \xE9 g\xE9lido, com m\xE9dias que podem atingir -80\xB0C, apresentando varia\xE7\xF5es
         t\xE9rmicas dr\xE1sticas de at\xE9 100\xB0C num \xFAnico dia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1022387082}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801520099650067127, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4056698271683325552, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
       propertyPath: m_LocalPosition.x
@@ -199,6 +317,34 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 8400000, guid: 5ae838a73f4a1ee4980191866457ab0d, type: 2}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1534816297}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465342316586258114, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2872246645392593373, guid: 93c4aca714e010c4c891f67a8ea37c64, type: 3}
@@ -303,3 +449,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1894553926}
   - {fileID: 1555605611}
+  - {fileID: 1022387083}
+  - {fileID: 1534816298}
