@@ -152,7 +152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36.575, y: 21}
+  m_AnchoredPosition: {x: 27.092056, y: 70}
   m_SizeDelta: {x: 266.1548, y: 266.1548}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284768
@@ -169,8 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayImagem: {fileID: 339193731}
   textoTitulo: {fileID: 2115537614}
-  textoResumo: {fileID: 1019589582}
-  painelResumo: {fileID: 213599233}
   imagens:
   - {fileID: -4102234412333347474, guid: d45c62c3dca6bd94c9a006cac2e16013, type: 3}
   - {fileID: -2438763583162409868, guid: 99960a3a971a1294faf33623d90c98d8, type: 3}
@@ -339,7 +337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 167.48294, y: -158}
+  m_AnchoredPosition: {x: 158, y: -109}
   m_SizeDelta: {x: 70.9449, y: 37.433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &244944645
@@ -385,7 +383,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 244944646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1284768}
+        m_TargetAssemblyTypeName: CarrosselSimples, Assembly-CSharp
+        m_MethodName: Proximo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &244944646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.905, y: 8.432}
+  m_AnchoredPosition: {x: 8.422057, y: 57.432}
   m_SizeDelta: {x: 197.5527, y: 370.2867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339193731
@@ -1378,7 +1388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -461.13, y: -281.25}
+  m_AnchoredPosition: {x: -461.13, y: -303}
   m_SizeDelta: {x: 238.42, y: 63.607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122064920
@@ -1623,7 +1633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116.34, y: -158}
+  m_AnchoredPosition: {x: -125.82294, y: -109}
   m_SizeDelta: {x: 70.946, y: 37.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303280272
@@ -1669,7 +1679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1303280273}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1284768}
+        m_TargetAssemblyTypeName: CarrosselSimples, Assembly-CSharp
+        m_MethodName: Anterior
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1303280273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1744,7 +1766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36.575, y: -267.2458}
+  m_AnchoredPosition: {x: 23.517, y: -300.2}
   m_SizeDelta: {x: 234.89, y: 58.0083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488327608
@@ -1790,7 +1812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1488327609}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1284768}
+        m_TargetAssemblyTypeName: CarrosselSimples, Assembly-CSharp
+        m_MethodName: AbrirResumo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1488327609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,7 +1897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.905, y: 256}
+  m_AnchoredPosition: {x: 27.092, y: 288.74}
   m_SizeDelta: {x: 959.7131, y: 92.3368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650148842
@@ -2395,7 +2429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33, y: -213.08}
+  m_AnchoredPosition: {x: 23.517056, y: -164.08}
   m_SizeDelta: {x: 311.0591, y: 72.733}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115537614
