@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -461.13, y: -274.5}
+  m_AnchoredPosition: {x: -461.13, y: -296.25}
   m_SizeDelta: {x: 238.42, y: 50.109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224863115
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 224863113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03812be8eadea5b40a99227a416e1b61, type: 3}
+  m_Script: {fileID: 11500000, guid: f7c8cdddf15b0f649a1931ffa9b02557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: "Bot\xF5es"
