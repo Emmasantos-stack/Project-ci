@@ -9,20 +9,161 @@ EditorBuildSettings:
     path: Assets/Scenes/Venus.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Urano.unity
+    guid: 863114b70e7443b4f8e6cc22fbb933c8
+  - enabled: 1
     path: "Assets/Scenes/Bot\xF5es.unity"
     guid: 9620af6ab2d1f9445ba3786d2e621349
+  - enabled: 1
+    path: Assets/Scenes/titulo.unity
+    guid: 7e7e7848f501bc04798b602664457298
   - enabled: 1
     path: Assets/Scenes/Cena_Equipamentos.unity
     guid: 7c093ef3e98866a478044f446eb87350
   - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 11.unity
+    guid: 055a51e399adc014b815164547a93c2d
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 9.unity
+    guid: 31029d9376b324f45a73f6190d3a5334
+  - enabled: 1
+    path: Assets/Scenes/temas.unity
+    guid: f3b10906e1f0cfe41bf81b1ed496f177
+  - enabled: 1
     path: Assets/Scenes/Cena_NaoTripuladas.unity
     guid: 28e5be7c56a1e304187729129f2cc7f1
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 8.unity
+    guid: c9f98e0efe69c194bb5dd43798ea47e7
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 7.unity
+    guid: 48d83312a8f32b14dae1617365809039
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 6.unity
+    guid: 559e9a7ec31af5645a10d89c05e43969
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 10.unity
+    guid: 0fc26e9b4c172864b845923f61290358
+  - enabled: 1
+    path: Assets/Scenes/resultados.unity
+    guid: 8b26b1d8d54ff4e4fb6d03a65d392a5c
+  - enabled: 1
+    path: Assets/Scenes/Mercurio_Curiosidades.unity
+    guid: 11602e70ed541c141a546bce0751f6d1
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 13.unity
+    guid: 96359df57867ab34bb733d58792fd847
+  - enabled: 1
+    path: Assets/Scenes/Jupiter_Curiosidades.unity
+    guid: ac1ec1779ffae1044a5bd6d869f88d8f
+  - enabled: 1
+    path: Assets/Scenes/Neptuno_Curiosidades.unity
+    guid: f9eb42098ed3c2a48aa2879f2f78dd96
+  - enabled: 1
+    path: Assets/Scenes/Marte_Curiosidades.unity
+    guid: 06f0087012b85fa47b38c8766b1748b0
+  - enabled: 1
+    path: Assets/Scenes/Jupiter.unity
+    guid: 1c5b4d46f913905418383a828390c3e0
+  - enabled: 1
+    path: Assets/Scenes/Marte.unity
+    guid: 307908f4bed558b4fbabe1badada0ad2
+  - enabled: 1
+    path: Assets/Scenes/Menu inicial.unity
+    guid: 71975abf946b48d43b43a66f262dc9da
+  - enabled: 1
+    path: Assets/Scenes/Mercurio.unity
+    guid: 9841722b2da821f43b1b39c84d8b0c4c
   - enabled: 1
     path: Assets/Scenes/Cena_Tripuladas.unity
     guid: c673ebb1235483c4a804d61712872247
   - enabled: 1
+    path: Assets/Scenes/Saturno_Curiosidades.unity
+    guid: c884d30598a605046ae2e41faff41a7a
+  - enabled: 1
+    path: Assets/Scenes/Neptuno.unity
+    guid: 15ae02b66cb655045932666f75b5e77e
+  - enabled: 1
+    path: Assets/Scenes/Terra.unity
+    guid: 6b6f91f4d23a71e458a08ef06cd10ff9
+  - enabled: 1
+    path: Assets/Scenes/Saturno.unity
+    guid: bd2c6b8289dce3748a0dd51d651324d3
+  - enabled: 1
+    path: Assets/Scenes/Terra_Curiosidades.unity
+    guid: a10d5bc52474f7740bff6dca5fa59488
+  - enabled: 1
     path: Assets/Scenes/Cena_Veiculos.unity
     guid: 6ce59992a418913498795e45980cdd77
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 12.unity
+    guid: e12c381ed1c56214199d9515ee249cca
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 2.unity
+    guid: 247e25694cb1d94498767ba960123451
+  - enabled: 1
+    path: Assets/Scenes/Urano_Curiosidades.unity
+    guid: ed1e0afc2da5b084c80f26d70a97640b
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 3.unity
+    guid: 4c3abfa657dfdd349b210e8b0e5d8c6d
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 4.unity
+    guid: e85e0f3d32e5797428aae073487c41f2
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 5.unity
+    guid: adbc0aa768987d142a234c9f9b90f22a
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 4.unity
+    guid: c3a1af379d325d94699b0a7f095467a6
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 5.unity
+    guid: 781b4d27fb8fb59468e4d5b7783f7bdb
+  - enabled: 1
+    path: Assets/Scenes/Venus_Curiosidades.unity
+    guid: c832bb588ca93fd44bbc4cf04af60ebf
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 6.unity
+    guid: a46bf4aa37a99e146b58bb3c0fb1f134
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 7.unity
+    guid: 8915ff3926a267d45a5878023a3d396a
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 3.unity
+    guid: d81d6aa45a5471042b71d0742273ccff
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 13.unity
+    guid: ca491acd53369774e9c037b3a9fcc68d
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 2.unity
+    guid: 2525817676b516f45a1cd00b0effce8f
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas 1.unity
+    guid: 992194ae8b8756f4d8476c613c39f069
+  - enabled: 1
+    path: Assets/Scenes/CenaDosPlanetas.unity
+    guid: 7b02c2fc4765f7f41baedd2a4c55ec3c
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 8.unity
+    guid: 4129fe7aafae62e4889f31735f00f539
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 12.unity
+    guid: 1d7bdc188fe51ee478e692c4ec5c5b42
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 11.unity
+    guid: c95ed62c229e3724288dc2c572ad4fba
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 10.unity
+    guid: 7d44b78a30db8434b89d264a676b40f5
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 9.unity
+    guid: d14ad664828e337448176feb2261173b
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes 1.unity
+    guid: 5a3619727cba1d64cab9ea6cf0671335
+  - enabled: 1
+    path: Assets/Scenes/CenaDasMissoes.unity
+    guid: bf1bbe5d0af52664ba3aa0e624a1db0d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
